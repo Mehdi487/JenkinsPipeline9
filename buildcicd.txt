@@ -1,0 +1,1000 @@
+   25  source .venv/bin/activate
+   26  pip3 install pybatfish
+   27  ls
+   28  ll
+   29  git clone https://github.com/IPvZero/CodeSamples.git
+   30  cd CodeSamples/Juniper-Automation/Batfish-stuff/snapshots/
+   31  ls
+   32  cd test01/configs/
+   33  ls
+   34  cat R1.cfg 
+   35  touch csr63.cfg
+   36  cd ../../../../../
+   37  ls
+   38  cd ..
+   39  code .
+   40  cd /CodeSamples/Juniper-Automation/Batfish-stuff/snapshots
+   41  cd CodeSamples/Juniper-Automation/Batfish-stuff/snapshots
+   42  ls
+   43  cd test01/configs/
+   44  ls
+   45  cd ..
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd ..
+   50  ls
+   51  cat script1.py 
+   52  pwd
+   53  cd snapshots/test01/
+   54  pwd
+   55  pip3 install rich
+   56  cd ../../
+   57  python3 script1.py 
+   58  python3 script1.py --df.iloc[0]
+   59  python3
+   60  history 
+   61  history > his3rd.txt
+   62  cd ../../../../
+   63  ls
+   64  cd BATFISH/
+   65  ls
+   66  ll
+   67  source .venv/bin/activate
+   68  ls
+   69  sudo     docker run -it -p 8501:8501 --name suzieq netenglabs/suzieq-demo
+   70  pip3 install netaddr
+   71  pip3 install netmiko
+   72  pip3 install xmltodict
+   73  cd /home/influxdb/BATFISH/CodeSamples/Juniper-Automation/FastAPI-Stuff
+   74  uvicorn main4:app --reload
+   75  uvicorn main:app --reload
+   76  history 
+   77  history > hisuzieq.txt
+   78  deactivate 
+   79  cd ..
+   80  mkdir SUZIQ
+   81  cd SUZIQ/
+   82  python3 -m venv .venv1
+   83  source .venv1/bin/activate
+   84  pip3 install suzieq
+   85  ls
+   86  ll
+   87  cd .venv1/lib/python3.8/site-packages/suzieq/config/etc
+   88  ll
+   89  cp suzieq-cfg.yml ~/SUZIQ/
+   90  cd
+   91  cd SUZIQ/
+   92  ls
+   93  cat suzieq-cfg.yml 
+   94  ls
+   95  suzieq-cli -V
+   96  suzieq-gui -V
+   97  ssh admin@192.168.2.89
+   98  sudo nano /etc/ssh/ssh_config
+   99  ssh admin@192.168.2.89
+  100  ssh admin@192.168.2.90
+  101  ssh admin@192.168.2.221
+  102  ssh admin@192.168.2.92
+  103  sq-poller -I my_invent.yml --syntax-check
+  104  sq-poller -I my_invent.yml 
+  105  history 
+  106  history > suzi1.txt
+  107  deactivate 
+  108  source .venv1/bin/activate
+  109  ls
+  110  suzieq-cli
+  111  pip3 install netaddr
+  112  pip3 install netmiko
+  113  pip3 install xmltodict
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd BATFISH/
+  118  ls
+  119  cd CodeSamples/Juniper-Automation/Mac-Search/
+  120  s
+  121  ls
+  122  python3 teststuff.py 
+  123  sudo pip3 install genie
+  124  pip3 install genie
+  125  python3 teststuff.py 
+  126  pip3 install pyats
+  127  python3 teststuff.py 
+  128  sudo pip3 install genie
+  129  pip3 install genie
+  130  python3 teststuff.py 
+  131  cd ..
+  132  cd IP-Management/
+  133  ls
+  134  python3 script1.py 
+  135  env
+  136  env $PATH
+  137  env $HIST
+  138  env $HISTSIZE
+  139  color=blue
+  140  echo $color
+  141  bash
+  142  export color=green
+  143  bash
+  144  alias
+  145  ls -CF
+  146  ls
+  147  zgrep
+  148  pip3 install nornir
+  149  python3 script2.py 
+  150  pip3 install nornir_netmiko
+  151  python3 script2.py 
+  152  touch script3.py
+  153  python3 script3.py 
+  154  pip3 install nornir.plugins.networking
+  155  pip3 install nornir.plugins.tasks.networking
+  156  python3 script3.py 
+  157  pip3 install nornir.plugins.functions.text
+  158  python3 script3.py 
+  159  python3 script2.py 
+  160  cp script3.py script4.py
+  161  python3 script4.py 
+  162  cd ..
+  163  cd Routing-Check/
+  164  ls
+  165  python3 script1.py 
+  166  cp script1.py script4.py
+  167  python3 script4.py 
+  168  cp script1.py script5.py
+  169  python3 script5.py 
+  170  ssh admin@192.168.2.92
+  171  cd ..
+  172  cd IP-Management/
+  173  ls
+  174  python3 script3.py 
+  175  python3 script2.py 
+  176  python3 script4.py 
+  177  cd ..
+  178  cd Routing-Check/
+  179  ls
+  180  python3 script5.py 
+  181  python3 script1.py 
+  182  ssh admin@192.168.2.93
+  183  python3 script1.py 
+  184  pip install fastapi
+  185  pip3 install fastapi
+  186  pip install "uvicorn[standard]"
+  187  pip3 install "uvicorn[standard]"
+  188  cd ..
+  189  cd FastAPI-Stuff/
+  190  ls
+  191  cp main.py main4.py 
+  192  python3 main4.py 
+  193  pwd
+  194  uvicorn main:app --reload
+  195  history 
+  196  history > bat-fast-his.txt
+  197  deactivate 
+  198  docker --version
+  199  sudo docker run hello-world
+  200  python3 --version
+  201  sudo apt install python3.8-venv
+  202  mkdir BATFISH
+  203  cd BATFISH/
+  204  python3.8 -m venv .venv
+  205  source .venv/bin/activate
+  206  python3 --version
+  207  sudo docker pull batfish/allinone
+  208  sudo docker run --name batfish -v batfish-data:/data -p 8888:8888 -p 9997:9997 -p 9996:9996 batfish/allinone
+  209  ipaddr
+  210  sudo apt update
+  211  sudi lsof -i :8501
+  212  sudo lsof -i :8501
+  213  python3 --version
+  214  docker --version
+  215  sudo docker run hello-world
+  216  sudo usermod -aG docker $USER
+  217  sudo usermod -aG docker jenkins
+  218  docker run hello-world
+  219  docker images
+  220  sudo docker images
+  221  docker ps -a
+  222  sudo docker ps -a
+  223  history 
+  224  history > firsthis.txt
+  225  ls
+  226  python3 nornir_logic.py 
+  227  cd ..
+  228  ls
+  229  ll
+  230  cd ..
+  231  ll
+  232  cd ..
+  233  ls
+  234  cd SUZIQ/
+  235  ls
+  236  ll
+  237  source .venv1/bin/activate
+  238  cd ..
+  239  pip3 --list
+  240  pip3 list
+  241  lks
+  242  ls
+  243  cd BATFISH/CodeSamples/Juniper-Automation/FastAPI-Stuff/
+  244  ls
+  245  python3 nornir_logic.py 
+  246  cd ..
+  247  cd OSPF-Check/
+  248  ls
+  249  python3 script1.py 
+  250  deactivate 
+  251  cd
+  252  sudo apt install default-jdk default-jre
+  253  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  254  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  255  sudo apt-get update
+  256  sudo apt install jenkins
+  257  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary / > /etc/apt/sources.list.d/jenkins.list'
+  258  sudo apt-get update
+  259  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  260  sudo apt-get update
+  261  sudo apt install jenkins
+  262  sudo apt  install curl
+  263  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  264  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]     https://pkg.jenkins.io/debian binary/ | sudo tee     /etc/apt/sources.list.d/jenkins.list > /dev/null
+  265  sudo systemctl status jenkins
+  266  sudo systemctl start jenkins
+  267  sudo apt install default-jdk default-jre
+  268  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  269  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  270  sudo apt-get update
+  271  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  272  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  273  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  274  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  275  sudo apt update
+  276  sudo apt install jenkins
+  277  ls
+  278  history 
+  279  history > historyjenkins.txt
+  280  cat historyjenkins.txt 
+  281  sudo natsat -lnpt
+  282  sudo natstat -lnpt
+  283  sudo netstat -lnpt
+  284  cat /var/lib/jenkins/secrets/initialAdminPassword
+  285  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  286  sudo netstat -lnpt
+  287  cd /var/lib/jenkins/workspace/test1
+  288  ls
+  289  cat file1.txt 
+  290  cd ..
+  291  ls
+  292  cd /home/influxdb/BATFISH/CodeSamples/Juniper-Automation/IP-Management
+  293  ls
+  294  cp config.yaml groups.yaml hosts.yaml /var/lib/jenkins/
+  295  sudo cp config.yaml groups.yaml hosts.yaml /var/lib/jenkins/
+  296  cd -
+  297  ls
+  298  cd ..
+  299  cd jenkins/
+  300  ls
+  301  code .
+  302  touch script4.py
+  303  sudo touch script4.py
+  304  ls
+  305  cd workspace/
+  306  ls
+  307  cd pipeline1
+  308  ls
+  309  cd Jenkinstest/
+  310  ls
+  311  cd ..
+  312  cd Jenktest/
+  313  ls
+  314  cat config.yaml 
+  315  cat script1.py 
+  316  cat hosts.yaml 
+  317  cd ..
+  318  ls
+  319  ll
+  320  ls
+  321  cd Jenktest/
+  322  ls
+  323  cat config.yaml 
+  324  cat hosts.yaml 
+  325  cd ..
+  326  ls
+  327  cd ..
+  328  ls
+  329  ll
+  330  ssh admin@192.168.2.89
+  331  ls
+  332  history 
+  333  docker ps -a
+  334  ls
+  335  docker ps -a
+  336  cd /var/lib/jenkins/
+  337  ls
+  338  cd workspace/
+  339  ls
+  340  cd pipelinei2
+  341  cd pipeline2
+  342  ls
+  343  cd Jenktest/
+  344  ls
+  345  cd ..
+  346  ls
+  347  ll
+  348  cd ..
+  349  ll
+  350  cd pipeline2
+  351  ll
+  352  cd ..
+  353  cd 
+  354  ls
+  355  cd BATFISH/
+  356  ls
+  357  code CodeSamples/
+  358  cd ..
+  359  ls
+  360  mkdir NewTest
+  361  cd NewTest/
+  362  ls
+  363  git clone https://github.com/Mehdi487/Docker-Test.git
+  364  cd Docker-Test/
+  365  ls
+  366  ping 192.168.2.89
+  367  cat hosts.yaml 
+  368  python3 script1.py 
+  369  cd ..
+  370  ls
+  371  python3 -m venv .venvNT
+  372  cd .venvNT/
+  373  source bin/activate
+  374  cd ..
+  375  ls
+  376  pip3 install nornir
+  377  pip3 install nornir-utils
+  378  pip3 install nornir-netmiko
+  379  pip3 install nornir-utils
+  380  ls
+  381  cd Docker-Test/
+  382  ls
+  383  python3 script1.py 
+  384  pip freeze
+  385  pip3 freeze > requirements.txt
+  386  cat requirements.txt 
+  387  ls
+  388  ll
+  389  cat nornir.log 
+  390  cd ..
+  391  ls
+  392  cd ..
+  393  ls
+  394  code NewTest/
+  395  ls
+  396  cd NewTest/
+  397  ls
+  398  cd Docker-Test/
+  399  ls
+  400  cat hosts.yaml 
+  401  cat groups.yaml 
+  402  cat config.yaml 
+  403  cat script1.py 
+  404  rm config.yaml groups.yaml hosts.yaml script1.py README.md 
+  405  ls
+  406  rm nornir.log 
+  407  ls
+  408  docker build -t mehdfarhad .
+  409  ls
+  410  docker build -t mehdfarhad .
+  411  pip3 freeze
+  412  docker build -t mehdfarhad .
+  413  docker images 
+  414  docker rmi 0dae4d54e862
+  415  docker rmif 0dae4d54e862
+  416  docker -rmi 0dae4d54e862
+  417  docker -rmi -f 0dae4d54e862 41fe6b04284a
+  418  docker -rm -f 0dae4d54e862 41fe6b04284a
+  419  docker -rmi 0dae4d54e862 41fe6b04284a
+  420  docker -rmi 0dae4d54e862
+  421  docker images 
+  422  docker rmi -f 0dae4d54e862 41fe6b04284a
+  423  docker images 
+  424  docker rmi -f 4d0083f375cc 562668e54052 cb435efc06ea 5cd5997afcb2
+  425  docker images 
+  426  cd
+  427  deactivate 
+  428  python3
+  429  docker image
+  430  docker images
+  431  docker run --interactive --tty --entrypoint /bin/bash mehdfarhad:latest
+  432  docker images 
+  433  history 
+  434  cd NewTest/
+  435  ls
+  436  ll
+  437  source .venvNT/bin/activate
+  438  docker images
+  439  docker rmi -f mehdfarhad
+  440  docker images
+  441  docker build -t mehdfarhad .
+  442  ls
+  443  cd Docker-Test/
+  444  ls
+  445  docker build -t mehdfarhad .
+  446  docker images
+  447  docker rmi -f mehdfarhad
+  448  docker images
+  449  docker rmi -f 645cd64cbe1d 89529350cc3b 606f17d25d6e 82316aabf521
+  450  docker images
+  451  docker build -t mehdfarhad .
+  452  docker images
+  453  ls
+  454  docker images
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd NewTest/
+  461  ls
+  462  cd Docker-Test/
+  463  ls
+  464  docker images
+  465  deactivate 
+  466  docker run --interacetive --tty --entrypoint /bin/bash mehdfarhad:latest
+  467  docker run --interactive --tty --entrypoint /bin/bash mehdfarhad:latest
+  468  docker ps
+  469  docker images
+  470  ls
+  471  docker images
+  472  docker save mehdfarhad:latest -o mfarhadis1.tar
+  473  ls
+  474  ipaddr
+  475  ipadd
+  476  scp mfarhadis1.tar worker1@192.168.2.16:/tmp
+  477  docker login --username=mehdifarhadi
+  478  docker images 
+  479  docker tag mehdfarhad:latest mehdifarhadi/influxdb:latest
+  480  docker push mehdifarhadi/influxdb:latest
+  481  docker images
+  482  ls
+  483  docker images
+  484  docker rmi -f mehdifarhadi/influxdb
+  485  docker images
+  486  ls
+  487  ll
+  488  cd ..
+  489  ls
+  490  cd Docker-Test/
+  491  ls
+  492  ll
+  493  docker images
+  494  history 
+  495  ls
+  496  docker images
+  497  docker rmi -f mehdifarhadi/influxdb
+  498  docker images
+  499  docker login --username=mehdifarhadi
+  500  docker images
+  501  docker rmi -f mehdfarhad
+  502  docker run --interactive --tty --entrypoint /bin/bash mehd-2nd:09.10
+  503  docker build -t mehdfarhad .
+  504  docker images
+  505  docker build -t mehd-2nd .
+  506  source .venvNT/bin/activate
+  507  cd ..
+  508  source .venvNT/bin/activate
+  509  docker build -t mehd-2nd .
+  510  ls
+  511  cd Docker-Test/
+  512  docker build -t mehd-2nd .
+  513  history 
+  514  docker images 
+  515  deactivate 
+  516  docker images 
+  517  docker run --interacetive --tty --entrypoint /bin/bash mehd-2nd:latest
+  518  docker run --interactive --tty --entrypoint /bin/bash mehd-2nd:latest
+  519  history 
+  520  docker images 
+  521  docker tag mehd-2nd:09.10 mehdifarhadi/influxdb:09.10
+  522  docker tag mehd-2nd:latest mehdifarhadi/influxdb:09.10
+  523  docker push mehdifarhadi/influxdb:09.10
+  524  docker images
+  525  docker run --interactive --tty --entrypoint /bin/bash mehdifarhadi/influxdb:09.10
+  526  history > docker-pipeline.txt
+  527  ping 8.8.8.8
+  528  ls
+  529  cd ..
+  530  ls
+  531  git clone https://github.com/Mehdi487/Docker-Test.git
+  532  ll
+  533  cd ..
+  534  ls
+  535  cd BATFISH/
+  536  ls
+  537  cd ..
+  538  ls
+  539  cd NewTest/
+  540  ls
+  541  cd Docker-Test/
+  542  ls
+  543  cd ..
+  544  git clone https://github.com/Mehdi487/Docker-Test.git blahblah
+  545  cd blahblah/
+  546  ls
+  547  cat hosts.yaml 
+  548  ls
+  549  ll
+  550  git pull 
+  551  cat hosts.yaml 
+  552  cd ..
+  553  ls
+  554  cd Docker-Test/
+  555  ls
+  556  docker images 
+  557  cd 
+  558  cd  NewTest/
+  559  ls
+  560  cd Docker-Test/
+  561  cd
+  562  cdc BATFISH/
+  563  cd BATFISH/
+  564  ls
+  565  code CodeSamples/
+  566  exit 
+  567  cd 
+  568  ssh admin@192.168.2.94
+  569  ssh admin@192.168.2.96
+  570  ssh admin@192.168.2.95
+  571  history 
+  572  history > 2nddocker.txt
+  573  cd BATFISH/
+  574  ls
+  575  cd CodeSamples/
+  576  ls
+  577  cd Juniper-Automation/
+  578  ls
+  579  mkdir Test-Prod
+  580  cd IP-Management/
+  581  ;s
+  582  ls
+  583  cp hosts.yaml groups.yaml config.yaml ../Test-Prod/
+  584  cd -
+  585  cd Test-Prod/
+  586  ls
+  587  mv hosts.yaml test_hosts.yaml
+  588  ls
+  589  mv config.yaml test_config.yaml
+  590  cd 
+  591  cd NewTest/
+  592  ls
+  593  ll
+  594  ls
+  595  cd 
+  596  ls
+  597  cd BATFISH/
+  598  ls
+  599  ll
+  600  source .venv/bin/activate
+  601  cd
+  602  cd BATFISH/CodeSamples/Juniper-Automation/Test-Prod/
+  603  ls
+  604  ll
+  605  cp test_hosts.yaml prod_hosts.yaml
+  606  ls
+  607  ll
+  608  cp test_config.yaml prod_config.yaml
+  609  ll
+  610  python3 script1.py 
+  611  cd 
+  612  ls
+  613  cd BATFISH/
+  614  ks
+  615  ll
+  616  cd CodeSamples/
+  617  ls
+  618  ll
+  619  cd Juniper-Automation/
+  620  l
+  621  ll
+  622  cd IP-Management/
+  623  ls
+  624  ll
+  625  cd 
+  626  ls
+  627  cd SUZIQ/
+  628  ll
+  629  deactivate 
+  630  source .venv1/bin/activate
+  631  pip list
+  632  ls
+  633  cd
+  634  cd BATFISH/CodeSamples/Juniper-Automation/Test-Prod/
+  635  ls
+  636  cd .
+  637  cd ..
+  638  ls
+  639  cd ..
+  640  code Juniper-Automation/
+  641  .
+  642  code Juniper-Automation
+  643  cd Juniper-Automation/Test-Prod/
+  644  ls
+  645  python3 script1.py 
+  646  pip3 install nornir_utils
+  647  python3 script1.py 
+  648  cp script1.py script2.py 
+  649  python3 script2.py 
+  650  python3 script2.py m f
+  651  python3 script1.py prod_config.yaml 
+  652  python3 script1.py test__config.yaml 
+  653  python3 script1.py test_config.yaml 
+  654  docker images
+  655  cd ..
+  656  cd
+  657  cd NewTest/
+  658  ls
+  659  cd ..
+  660  mkdir Pipeline-Test
+  661  cd P
+  662  cd Pipeline-Test/
+  663  ls
+  664  cd ..
+  665  ls
+  666  ll
+  667  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  668  cd automation/
+  669  ls
+  670  cat te
+  671  cat test_config.yaml 
+  672  cat prod_config.yaml 
+  673  cat host_vars/
+  674  cat groups.yaml 
+  675  cat test_hosts.yaml 
+  676  cd ..
+  677  ls
+  678  ll
+  679  cd automation/
+  680  ls
+  681  cd ..
+  682  rm -R automation/
+  683  ls
+  684  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  685  rm -Rf automation/
+  686  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  687  cd automation/
+  688  cat test_hosts.yaml 
+  689  cd host_vars/
+  690  cd ..
+  691  code automation/
+  692  cd automation/
+  693  ls
+  694  cd templates/
+  695  ls
+  696  cp ospf.j2 ospfcisco.j2 
+  697  ls
+  698  cd ..
+  699  cd host_vars/
+  700  ll
+  701  cat R1.yaml 
+  702  cat R2.yaml 
+  703  cp R1.yaml csr63.yaml
+  704  cp R1.yaml csr23.yaml
+  705  echo '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'
+  706  git credential-cache exit
+  707  git config --global credential.helper 'cache --timeout=604800'
+  708  cd ..
+  709  git credential-cache exit
+  710  git config --global credential.helper 'cache --timeout=604800'
+  711  git add *
+  712  git commit -m "1st" *
+  713  git config --global Mehdi487@mehdifarhadi487@gmail.com
+  714  git config --global mehdifarhadi487@gmail.com
+  715  git commit -m "1st" *
+  716  git commit -m "1st" *
+  717  git push -u origin main
+  718  git credential-cache exit
+  719  git config --global credential.helper 'cache --timeout=604800'
+  720  git add *
+  721  git commit -m "newst" *
+  722  git init
+  723  git config user.name Mehdi487
+  724  git config user.email mehdifarhadi487@gmail.com
+  725  git add *
+  726  git commit -m "newst" *
+  727  git commit -m "1st" *
+  728  git push -u origin main
+  729  pip3 install nornir nornir-utils nornir-netmiko nornir-jinja2 pylint black 
+  730  python3 script1.py test_config.yaml 
+  731  pip3 freeze > requirements.txt
+  732  python3 script1.py test_config.yaml 
+  733  cat requirements.txt 
+  734  cd ..
+  735  mkdir Create-Docker
+  736  cd Create-Docker/
+  737  cd ..
+  738  cd automation/
+  739  cp requirements.txt ../Create-Docker/
+  740  cd ..
+  741  cd Create-Docker/
+  742  ls
+  743  touch Dockerfile
+  744  cd ..
+  745  code Create-Docker
+  746  ls
+  747  cd C
+  748  cd Create-Docker/
+  749  ls
+  750  cat Dockerfile 
+  751  history 
+  752  pip3 list
+  753  history 
+  754  cd ..
+  755  ls
+  756  deactivate 
+  757  cd automation/
+  758  ls
+  759  python3 -m venv .venvJenpip
+  760  source .venvJenpip/bin/activate
+  761  pip3 install nornir nornir-utils nornir-netmiko nornir-jinja2 pylint black nano
+  762  python3 script1.py 
+  763  python3 script1.py test_config.yaml 
+  764  pip3 freeze
+  765  ls
+  766  pip3 freeze > requirements.txt
+  767  deactivate 
+  768  ls
+  769  cd ..
+  770  cd Create-Docker/
+  771  ls
+  772  docker build -t nornir-auto .
+  773  ls
+  774  cat requirements.txt 
+  775  docker images
+  776  docker rmi -f 3cafe6891e82
+  777  cd ..
+  778  cd automation/
+  779  cat requirements.txt 
+  780  cp requirements.txt ../Create-Docker/
+  781  cd ../Create-Docker/
+  782  ls
+  783  cat requirements.txt 
+  784  docker build -t nornir-auto .
+  785  cat requirements.txt 
+  786  docker images
+  787  docker rmi -f bdd768258b02
+  788  cat requirements.txt 
+  789  docker build -t nornir-auto .
+  790  cat requirements.txt 
+  791  docker images
+  792  docker rmi -f 2fb6f3092e62
+  793  docker build -t nornir-auto .
+  794  docker images
+  795  docker rmi -f 6e7f3bc3df42
+  796  docker build -t nornir-auto .
+  797  docker images
+  798  docker login --username=mehdifarhadi
+  799  docker tag nornir-auto:latest mehdifarhadi/nornir_demo:latest
+  800  docker push mehdifarhadi/nornir_demo:latest
+  801  docker images
+  802  cat requirements.txt 
+  803  touch exampblah.py
+  804  pylint exampblah.py 
+  805  ls
+  806  ll
+  807  cd ..
+  808  ls
+  809  cd automation/
+  810  ls
+  811  ll
+  812  source .venvJenpip/bin/activate
+  813  pip3 freeze
+  814  cd
+  815  cd Create-Docker/
+  816  pylint exampblah.py 
+  817  echo $?
+  818  pylint exampblah.py 
+  819  echo $?
+  820  pylint exampblah.py 
+  821  echo $?
+  822  pylint exampblah.py --fail-under=7
+  823  echo $?
+  824  pylint exampblah.py --fail-under=7
+  825  echo $?
+  826  docker images
+  827  git branch 
+  828  git init
+  829  history 
+  830  git credential-cache exit
+  831  git config user.email mehdifarhadi487@gmail.com
+  832  cd ..
+  833  cd automation/
+  834  ls
+  835  git credential-cache exit
+  836  git config user.email mehdifarhadi487@gmail.com
+  837  git branch 
+  838  git pull
+  839  git add *
+  840  git pull
+  841  git branch -r
+  842  git checkout test
+  843  git checkout -f branch
+  844  git checkout -f 
+  845  git checkout -f test
+  846  git checkout -f branch main
+  847  git checkout -f branch test
+  848  git checkout -f master
+  849  git checkout -f main
+  850  git pull
+  851  ls
+  852  git checkout test
+  853  git branch
+  854  git checkout main 
+  855  ls
+  856  cd ..
+  857  ls
+  858  git clone https://github.com/Mehdi487/JenkinsPipeline.git
+  859  cd JenkinsPipeline/
+  860  git config --global user.name "Mehdi487"
+  861  git config --global user.email "mehdifarhadi487@gmail.com"
+  862  git config --global credential.helper 'cache --timeout=604800'
+  863  git branch 
+  864  git add *
+  865  git commit -m "all files are added" *
+  866  git commit -m "all files are added"
+  867  git push -u origin main 
+  868  git add *
+  869  git push -u origin main 
+  870  git add *
+  871  git push 
+  872  ls
+  873  cp ../automation/* .
+  874  cp ../automation/*
+  875  cp ../automation .
+  876  cp -f ../automation .
+  877  ls
+  878  cp ../automation/host_vars/
+  879  cp ../automation/host_vars/ .
+  880  cp -r ../automation/host_vars/ .
+  881  cp -r ../automation/groups.yaml .
+  882  ls
+  883  cd ..
+  884  cd automation/
+  885  ls
+  886  cd ..
+  887  cd JenkinsPipeline/
+  888  cp -r ../automation/templates/ .
+  889  ls
+  890  git add *
+  891  git push -u origin main 
+  892  git add *
+  893  git commit -m "all files are added" *
+  894  git push -u origin main 
+  895  cd host_vars/
+  896  nano csr23.yaml 
+  897  nano csr63.yaml 
+  898  git add csr23.yaml csr63.yaml 
+  899  git commit -m "hosts are updated" csr23.yaml csr63.yaml 
+  900  git push -u origin main 
+  901  cd ..
+  902  git branch -r
+  903  git pull
+  904  git branch -r
+  905  git branch 
+  906  git checkout test 
+  907  git branch 
+  908  history 
+  909  git branch 
+  910  docker images
+  911  cd ..
+  912  ls
+  913  cd automation/
+  914  ls
+  915  cd host_vars/
+  916  cat csr23.yaml 
+  917  cd ..
+  918  ls
+  919  cd ..
+  920  history 
+  921  cd automation/
+  922  ls
+  923  cd host_vars/
+  924  cat csr23.yaml 
+  925  cd
+  926  rm -rf automation/
+  927  ll
+  928  ls
+  929  cd JenkinsPipeline/
+  930  ls
+  931  cd ..
+  932  cd Create-Docker/
+  933  ls
+  934  ll
+  935  cd ..
+  936  ls
+  937  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  938  cd automation/
+  939  ls
+  940  cd ..
+  941  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  942  rm -rf automation/
+  943  git clone https://github.com/Mehdi487/JenkinsPipeline.git automation
+  944  cd automation/
+  945  cat test_hosts.yaml 
+  946  cd ..
+  947  cd automation/
+  948  cd templates/
+  949  ls
+  950  cat ospfcisco.j2 
+  951  cat ospf.j2 
+  952  cd ..
+  953  ls
+  954  cat groups.yaml 
+  955  cat te
+  956  cat test_config.yaml 
+  957  cat test_hosts.yaml 
+  958  ls
+  959  cd templates/
+  960  ls
+  961  nano ospfcisco.j2 
+  962  cd ..
+  963  cd JenkinsPipeline/
+  964  ls
+  965  cd templates/
+  966  cat ospfcisco.j2 
+  967  nano ospfcisco.j2 
+  968  exit 
+  969  cd ..
+  970  ls
+  971  cd his
+  972  history 
+  973  docker images 
+  974  ls
+  975  cd JenkinsPipeline/
+  976  cd templates/
+  977  cat ospfcisco.j2 
+  978  history 
+  979  history | grep git
+  980  git branch 
+  981  git add ospfcisco.j2 
+  982  git push -u origin test 
+  983  git commit -m "update ospf" ospfcisco.j2 
+  984  git push -u origin test 
+  985  ls
+  986  cat ospf
+  987  cat ospfcisco.j2 
+  988  git config --global user.name "Mehdi487"
+  989  git config --global user.email "mehdifarhadi487@gmail.com"
+  990  git config --global credential.helper 'cache --timeout=604800'
+  991  git commit -m "update ospf" ospfcisco.j2 
+  992  git push -u origin test 
+  993  cd ..
+  994  git push -u origin test 
+  995  git branch 
+  996  git checkout main 
+  997  cd templates/
+  998  cat ospfcisco.j2 
+  999  nano ospfcisco.j2 
+ 1000  cd ..
+ 1001  git commit -m "update ospf" ospfcisco.j2
+ 1002  git commit -m "update ospf" templates/ospfcisco.j2
+ 1003  git push -u origin main 
+ 1004  cd ..
+ 1005  cd automation/
+ 1006  ls
+ 1007  cat script1.py 
+ 1008  ll
+ 1009  cd ..
+ 1010  l
+ 1011  ls
+ 1012  cd JenkinsPipeline/
+ 1013  ls
+ 1014  cd ..
+ 1015  history | grep source
+ 1016  history | grep source|mkdir
+ 1017  history 
+ 1018  cd automation/
+ 1019  ls
+ 1020  python3 -m venv .venvJenpip
+ 1021  source .venvJenpip/bin/activate
+ 1022  pip3 install nornir nornir-utils nornir-netmiko nornir-jinja2 pylint black nano
+ 1023  ls
+ 1024  history > buildcicd.txt
