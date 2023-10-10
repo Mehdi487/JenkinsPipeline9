@@ -1,0 +1,44 @@
+---
+
+# CSR1:
+#   hostname: 192.168.2.221
+#   platform: "cisco_ios"
+#   username: "admin"
+#   password: "adminadmin"
+#   groups:
+#     - cisco_group
+#   data:
+#     device_name: "CSR1"
+
+
+csr63:
+  hostname: 192.168.2.96
+  platform: "cisco_ios"
+  username: "admin"
+  password: "adminadmin"
+  groups:
+    - cisco_group
+  data:
+    device_name: "csr63"
+
+
+csr23:
+  hostname: 192.168.2.94
+  platform: "cisco_ios"
+  username: "admin"
+  password: "adminadmin"
+  groups:
+    - cisco_group
+  data:
+    device_name: "csr23"
+
+
+# Switch:
+#   hostname: 192.168.2.92
+#   platform: "cisco_ios"
+#   username: "admin"
+#   password: "adminadmin"
+#   groups:
+#     - cisco_group
+#   data:
+#     device_name: "Switch"

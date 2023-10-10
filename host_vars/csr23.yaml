@@ -1,0 +1,5 @@
+---
+OSPF:
+  - interface: "GigabitEthernet3.63"
+    pid: "1"
+    area: "0"
